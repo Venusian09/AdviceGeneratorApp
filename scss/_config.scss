@@ -1,0 +1,25 @@
+$light-cyan: hsl(193, 38%, 86%);
+$neon-green: hsl(150, 100%, 66%);
+
+$grayish-blue: hsl(217, 19%, 38%);
+$dark-grayish-blue: hsl(217, 19%, 24%);
+$dark-blue: hsl(218, 23%, 16%);
+
+$primary-font-size: 28px;
+$bold-font: 800;
+$margin: 30px;
+
+@mixin transition-ease {
+  transition: all 0.2s ease-in-out;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: $dark-grayish-blue;
+  font-weight: $bold-font;
+}
